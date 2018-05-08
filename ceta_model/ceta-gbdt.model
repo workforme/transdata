@@ -1,0 +1,614 @@
+booster[0]:
+0:[ORDER_TIMEIDX<3.5] yes=1,no=2,missing=1
+	1:[SHOP_DISTIDX_CUSTOM_TIME<1070.74] yes=3,no=4,missing=3
+		3:[ORDER_TIMEIDX<1.5] yes=7,no=8,missing=7
+			7:[ORDER_TIMEIDX<1181.5] yes=15,no=16,missing=15
+				15:[SHOP_LEAVE_TIME<430.003] yes=31,no=32,missing=31
+					31:leaf=148.237
+					32:leaf=208.436
+				16:[SHOP_LEAVE_TIME<508.036] yes=33,no=34,missing=33
+					33:leaf=227.676
+					34:leaf=271.605
+			8:[AREA_DISTIDX_TIMEIDX_CUSTOM_TIME<1045.92] yes=17,no=18,missing=17
+				17:[SHOP_DISTIDX_CUSTOM_TIME<812.293] yes=35,no=36,missing=35
+					35:leaf=224.364
+					36:leaf=280.421
+				18:[SHOP_REALTIME_OVERSTOCK<13.5] yes=37,no=38,missing=37
+					37:leaf=310.004
+					38:leaf=452.718
+		4:[ORDER_TIMEIDX<1.5] yes=9,no=10,missing=9
+			9:[SHOP_LEAVE_TIME<681.322] yes=19,no=20,missing=19
+				19:[ORDER_TIMEIDX<2763.5] yes=39,no=40,missing=39
+					39:leaf=267.907
+					40:leaf=314.482
+				20:[ORDER_DIST<1475.72] yes=41,no=42,missing=41
+					41:leaf=303.975
+					42:leaf=381.486
+			10:[ORDER_TIMEIDX<2.5] yes=21,no=22,missing=21
+				21:[SHOP_DISTIDX_CUSTOM_TIME<1349.13] yes=43,no=44,missing=43
+					43:leaf=341.372
+					44:leaf=406.283
+				22:[AREA_DISTIDX_CUSTOM_TIME<1104.29] yes=45,no=46,missing=45
+					45:leaf=386.139
+					46:leaf=492.331
+	2:[SHOP_DISTIDX_CUSTOM_TIME<1012.94] yes=5,no=6,missing=5
+		5:[AREA_REALTIME_TOSHOP_ORDER<400] yes=11,no=12,missing=11
+			11:[SHOP_TIMEIDX_LEAVE_TIME<685.857] yes=23,no=24,missing=23
+				23:[SHOP_TIMEIDX_ARRIVAL_TIME<88.5333] yes=47,no=48,missing=47
+					47:leaf=439.882
+					48:leaf=254.969
+				24:[ORDER_DIST<241.245] yes=49,no=50,missing=49
+					49:leaf=203.04
+					50:leaf=520.292
+			12:[SHOP_REALTIME_LEAVE_TIME<434.714] yes=25,no=26,missing=25
+				25:[SHOP_TIMEIDX_NET_INFLOW<0.833333] yes=51,no=52,missing=51
+					51:leaf=457.556
+					52:leaf=168.775
+				26:[ORDER_TIMEIDX<135.5] yes=53,no=54,missing=53
+					53:leaf=762.703
+					54:leaf=423.785
+		6:[AREA_DISTIDX_TIMEIDX_CUSTOM_TIME<1781.25] yes=13,no=14,missing=13
+			13:[ORDER_TIMEIDX<4.5] yes=27,no=28,missing=27
+				27:[SHOP_LEAVE_TIME<373.824] yes=55,no=56,missing=55
+					55:leaf=151.3
+					56:leaf=573.377
+				28:[ORDER_DIST<387.797] yes=57,no=58,missing=57
+					57:leaf=374.314
+					58:leaf=762.192
+			14:[AREA_REALTIME_ORDER<248] yes=29,no=30,missing=29
+				29:[ORDER_TIMEIDX<12026] yes=59,no=60,missing=59
+					59:leaf=211.425
+					60:leaf=741.157
+				30:leaf=1083.33
+booster[1]:
+0:[ORDER_TIMEIDX<3.5] yes=1,no=2,missing=1
+	1:[SHOP_DISTIDX_CUSTOM_TIME<1135.73] yes=3,no=4,missing=3
+		3:[SHOP_DISTIDX_CUSTOM_TIME<851.928] yes=7,no=8,missing=7
+			7:[SHOP_DISTIDX_CUSTOM_TIME<252.483] yes=15,no=16,missing=15
+				15:[ORDER_TIMEIDX<1364.5] yes=31,no=32,missing=31
+					31:leaf=182.559
+					32:leaf=280.761
+				16:[SHOP_LEAVE_TIME<488.75] yes=33,no=34,missing=33
+					33:leaf=118.961
+					34:leaf=159.061
+			8:[ORDER_TIMEIDX<2.5] yes=17,no=18,missing=17
+				17:[ORDER_TIMEIDX<1.5] yes=35,no=36,missing=35
+					35:leaf=168.651
+					36:leaf=201.268
+				18:[AREA_REALTIME_LEAVESHOP_AVGLOAD<1.3909] yes=37,no=38,missing=37
+					37:leaf=236.863
+					38:leaf=363.573
+		4:[ORDER_TIMEIDX<1.5] yes=9,no=10,missing=9
+			9:[SHOP_LEAVE_TIME<757.283] yes=19,no=20,missing=19
+				19:[ORDER_TIMEIDX<2371] yes=39,no=40,missing=39
+					39:leaf=187.258
+					40:leaf=224.92
+				20:[ORDER_TIMEIDX<2336] yes=41,no=42,missing=41
+					41:leaf=231.521
+					42:leaf=293.075
+			10:[ORDER_TIMEIDX<2.5] yes=21,no=22,missing=21
+				21:[ORDER_TIMEIDX<2848.5] yes=43,no=44,missing=43
+					43:leaf=250.833
+					44:leaf=305.688
+				22:[SHOP_DISTIDX_CUSTOM_TIME<1329.5] yes=45,no=46,missing=45
+					45:leaf=279.656
+					46:leaf=363.981
+	2:[AREA_DISTIDX_CUSTOM_TIME<1082.99] yes=5,no=6,missing=5
+		5:[SHOP_REALTIME_LEAVE_TIME<695.357] yes=11,no=12,missing=11
+			11:[ORDER_TIMEIDX<6.5] yes=23,no=24,missing=23
+				23:[AREA_REALTIME_ORDER<41.5] yes=47,no=48,missing=47
+					47:leaf=129.884
+					48:leaf=289.258
+				24:[SHOP_ARRIVAL_TIME<210.473] yes=49,no=50,missing=49
+					49:leaf=182.752
+					50:leaf=507.587
+			12:[AREA_TIMEIDX_CUSTOM_TIME<1248.39] yes=25,no=26,missing=25
+				25:[SHOP_TIMEIDX_NET_INFLOW<0.166667] yes=51,no=52,missing=51
+					51:leaf=254.729
+					52:leaf=65.9654
+				26:[SHOP_TIMEIDX_NET_INFLOW<-0.844444] yes=53,no=54,missing=53
+					53:leaf=226.51
+					54:leaf=526.356
+		6:[AREA_TIMEIDX_ORDER<157.556] yes=13,no=14,missing=13
+			13:[SHOP_ARRIVAL_TIME<205.945] yes=27,no=28,missing=27
+				27:[SHOP_TIMEIDX_NET_INFLOW<-0.0625] yes=55,no=56,missing=55
+					55:leaf=391.607
+					56:leaf=190.484
+				28:[SHOP_AVG_DIST<807.382] yes=57,no=58,missing=57
+					57:leaf=223.048
+					58:leaf=500.51
+			14:[AREA_TIMEIDX_ORDER<207.167] yes=29,no=30,missing=29
+				29:[SHOP_CUSTOM_TIME<987.503] yes=59,no=60,missing=59
+					59:leaf=308.097
+					60:leaf=738.018
+				30:leaf=274.15
+booster[2]:
+0:[ORDER_TIMEIDX<2.5] yes=1,no=2,missing=1
+	1:[SHOP_DISTIDX_CUSTOM_TIME<1031.94] yes=3,no=4,missing=3
+		3:[ORDER_DIST<308.339] yes=7,no=8,missing=7
+			7:[SHOP_LEAVE_TIME<609.114] yes=15,no=16,missing=15
+				15:[ORDER_TIMEIDX<1.5] yes=31,no=32,missing=31
+					31:leaf=44.8476
+					32:leaf=75.7303
+				16:[AREA_REALTIME_DISTIDX_CUSTOM_TIME<570] yes=33,no=34,missing=33
+					33:leaf=64.751
+					34:leaf=134.219
+			8:[SHOP_LEAVE_TIME<561.475] yes=17,no=18,missing=17
+				17:[ORDER_TIMEIDX<1700.5] yes=35,no=36,missing=35
+					35:leaf=95.7387
+					36:leaf=128.11
+				18:[SHOP_TIMEIDX_LEAVE_TIME<890.708] yes=37,no=38,missing=37
+					37:leaf=136.452
+					38:leaf=202.791
+		4:[SHOP_LEAVE_TIME<735.581] yes=9,no=10,missing=9
+			9:[ORDER_TIMEIDX<1460.5] yes=19,no=20,missing=19
+				19:[SHOP_LEAVE_TIME<571.325] yes=39,no=40,missing=39
+					39:leaf=71.0089
+					40:leaf=121.287
+				20:[SHOP_REALTIME_LEAVE_TIME<813] yes=41,no=42,missing=41
+					41:leaf=150.025
+					42:leaf=212.962
+			10:[ORDER_TIMEIDX<1833.5] yes=21,no=22,missing=21
+				21:[SHOP_REALTIME_OVERSTOCK<6.5] yes=43,no=44,missing=43
+					43:leaf=151.501
+					44:leaf=244.858
+				22:[AREA_TIMEIDX_TOSHOP_AVGLOAD<1.03675] yes=45,no=46,missing=45
+					45:leaf=294.285
+					46:leaf=206.311
+	2:[AREA_DISTIDX_TIMEIDX_CUSTOM_TIME<1287.06] yes=5,no=6,missing=5
+		5:[AREA_DISTIDX_TIMEIDX_CUSTOM_TIME<935.345] yes=11,no=12,missing=11
+			11:[ORDER_TIMEIDX<432] yes=23,no=24,missing=23
+				23:[ORDER_TIMEIDX<86] yes=47,no=48,missing=47
+					47:leaf=47.8438
+					48:leaf=110.695
+				24:[AREA_TIMEIDX_CUSTOM_TIME<880.691] yes=49,no=50,missing=49
+					49:leaf=108.653
+					50:leaf=191.534
+			12:[ORDER_TIMEIDX<134.5] yes=25,no=26,missing=25
+				25:[SHOP_REALTIME_LEAVE_TIME<1126.5] yes=51,no=52,missing=51
+					51:leaf=264.173
+					52:leaf=611.088
+				26:[AREA_REALTIME_TOSHOP_AVGLOAD<1.04366] yes=53,no=54,missing=53
+					53:leaf=93.568
+					54:leaf=198.722
+		6:[AREA_REALTIME_LEAVESHOP_AVGLOAD<2.1113] yes=13,no=14,missing=13
+			13:[AREA_TIMEIDX_TOCUSTOM_AVGLOAD<1.7189] yes=27,no=28,missing=27
+				27:[AREA_AVG_DIST<1170.96] yes=55,no=56,missing=55
+					55:leaf=264.566
+					56:leaf=404.074
+				28:[SHOP_REALTIME_OVERSTOCK<9.5] yes=57,no=58,missing=57
+					57:leaf=189.615
+					58:leaf=308.233
+			14:[AREA_DISTIDX_TIMEIDX_ARRIVAL_TIME<420.21] yes=29,no=30,missing=29
+				29:[SHOP_TIMEIDX_ARRIVAL_TIME<304.733] yes=59,no=60,missing=59
+					59:leaf=95.3697
+					60:leaf=716.763
+				30:[AREA_TIMEIDX_TOCUSTOM_ORDER<274.111] yes=61,no=62,missing=61
+					61:leaf=124.894
+					62:leaf=411.511
+booster[3]:
+0:[ORDER_TIMEIDX<3.5] yes=1,no=2,missing=1
+	1:[SHOP_DISTIDX_CUSTOM_TIME<1154.81] yes=3,no=4,missing=3
+		3:[SHOP_REALTIME_OVERSTOCK<9.5] yes=7,no=8,missing=7
+			7:[ORDER_TIMEIDX<1.5] yes=15,no=16,missing=15
+				15:[ORDER_TIMEIDX<1751.5] yes=31,no=32,missing=31
+					31:leaf=62.7582
+					32:leaf=91.7942
+				16:[ORDER_TIMEIDX<311.5] yes=33,no=34,missing=33
+					33:leaf=54.3171
+					34:leaf=105.895
+			8:[AREA_REALTIME_LEAVESHOP_AVGLOAD<1.77316] yes=17,no=18,missing=17
+				17:[SHOP_AVG_DIST<1284.5] yes=35,no=36,missing=35
+					35:leaf=187.438
+					36:leaf=96.632
+				18:leaf=426.894
+		4:[ORDER_TIMEIDX<1.5] yes=9,no=10,missing=9
+			9:[AREA_TIMEIDX_TOSHOP_AVGLOAD<1.09023] yes=19,no=20,missing=19
+				19:[SHOP_DISTIDX_CUSTOM_TIME<1477.38] yes=37,no=38,missing=37
+					37:leaf=115.506
+					38:leaf=158.552
+				20:[ORDER_DIST<913.607] yes=39,no=40,missing=39
+					39:leaf=41.0265
+					40:leaf=91.1924
+			10:[AREA_REALTIME_LEAVESHOP_AVGLOAD<1.63119] yes=21,no=22,missing=21
+				21:[SHOP_LEAVE_TIME<839.626] yes=41,no=42,missing=41
+					41:leaf=125.612
+					42:leaf=161.611
+				22:[AREA_TIMEIDX_RIDER<701.5] yes=43,no=44,missing=43
+					43:leaf=295.719
+					44:leaf=29.5394
+	2:[SHOP_DISTIDX_CUSTOM_TIME<1270.51] yes=5,no=6,missing=5
+		5:[ORDER_TIMEIDX<5.5] yes=11,no=12,missing=11
+			11:[SHOP_REALTIME_AVG_DIST<2324.58] yes=23,no=24,missing=23
+				23:[AREA_REALTIME_DISTIDX_CUSTOM_TIME<679.556] yes=45,no=46,missing=45
+					45:leaf=16.051
+					46:leaf=163.318
+				24:[SHOP_TIMEIDX_CUSTOM_TIME<1556.23] yes=47,no=48,missing=47
+					47:leaf=71.2992
+					48:leaf=488.523
+			12:[AREA_REALTIME_DISTIDX_ARRIVAL_TIME<851.839] yes=25,no=26,missing=25
+				25:[SHOP_TIMEIDX_NET_INFLOW<0.775] yes=49,no=50,missing=49
+					49:leaf=405.879
+					50:leaf=162.685
+				26:[SHOP_CUSTOM_TIME<1165.72] yes=51,no=52,missing=51
+					51:leaf=24.7953
+					52:leaf=195.095
+		6:[SHOP_ARRIVAL_TIME<378.287] yes=13,no=14,missing=13
+			13:[SHOP_REALTIME_CUSTOM_TIME<1066] yes=27,no=28,missing=27
+				27:[ORDER_DIST<2059.69] yes=53,no=54,missing=53
+					53:leaf=495.631
+					54:leaf=197.028
+				28:[SHOP_REALTIME_CUSTOM_TIME<2689.25] yes=55,no=56,missing=55
+					55:leaf=247.409
+					56:leaf=-9.08531
+			14:[ORDER_TIMEIDX<12027.5] yes=29,no=30,missing=29
+				29:[AREA_TIMEIDX_ARRIVAL_TIME<390.422] yes=57,no=58,missing=57
+					57:leaf=151.308
+					58:leaf=6.10524
+				30:[AREA_TIMEIDX_ARRIVAL_TIME<661.657] yes=59,no=60,missing=59
+					59:leaf=247.21
+					60:leaf=35.4847
+booster[4]:
+0:[ORDER_TIMEIDX<2.5] yes=1,no=2,missing=1
+	1:[SHOP_LEAVE_TIME<572.49] yes=3,no=4,missing=3
+		3:[ORDER_DIST<873.694] yes=7,no=8,missing=7
+			7:[SHOP_REALTIME_OVERSTOCK<7.5] yes=15,no=16,missing=15
+				15:[SHOP_TIMEIDX_INORDER<1.86607] yes=31,no=32,missing=31
+					31:leaf=35.946
+					32:leaf=7.86929
+				16:[SHOP_REALTIME_LEAVE_TIME<300.75] yes=33,no=34,missing=33
+					33:leaf=-3.83824
+					34:leaf=115.504
+			8:[ORDER_TIMEIDX<5846.5] yes=17,no=18,missing=17
+				17:[SHOP_TIMEIDX_NET_INFLOW<1.94444] yes=35,no=36,missing=35
+					35:leaf=59.289
+					36:leaf=150.888
+				18:leaf=469.878
+		4:[ORDER_TIMEIDX<2719.5] yes=9,no=10,missing=9
+			9:[SHOP_LEAVE_TIME<782.539] yes=19,no=20,missing=19
+				19:[SHOP_AVG_ORDER<14.0556] yes=37,no=38,missing=37
+					37:leaf=100.203
+					38:leaf=60.9201
+				20:[ORDER_TIMEIDX<68.5] yes=39,no=40,missing=39
+					39:leaf=-63.3263
+					40:leaf=94.9889
+			10:[AREA_REALTIME_LEAVE_TIME<666.874] yes=21,no=22,missing=21
+				21:[SHOP_CUSTOM_TIME<871.914] yes=41,no=42,missing=41
+					41:leaf=289.575
+					42:leaf=102.006
+				22:[SHOP_ARRIVAL_TIME<459.15] yes=43,no=44,missing=43
+					43:leaf=141.811
+					44:leaf=429.498
+	2:[ORDER_TIMEIDX<815] yes=5,no=6,missing=5
+		5:[AREA_REALTIME_LEAVESHOP_ORDER<581.5] yes=11,no=12,missing=11
+			11:[AREA_TIMEIDX_TOSHOP_AVGLOAD<1.25048] yes=23,no=24,missing=23
+				23:[AREA_DISTIDX_TIMEIDX_LEAVE_TIME<699.451] yes=45,no=46,missing=45
+					45:leaf=59.196
+					46:leaf=161.014
+				24:[SHOP_CUSTOM_TIME<1449.13] yes=47,no=48,missing=47
+					47:leaf=27.333
+					48:leaf=-83.1203
+			12:[AREA_REALTIME_AVG_DIST<1293.89] yes=25,no=26,missing=25
+				25:[SHOP_DISTIDX_CUSTOM_TIME<1261.7] yes=49,no=50,missing=49
+					49:leaf=69.2328
+					50:leaf=319.649
+				26:[SHOP_TIMEIDX_CUSTOM_TIME<1055] yes=51,no=52,missing=51
+					51:leaf=64.4475
+					52:leaf=367.463
+		6:[AREA_REALTIME_TOSHOP_ORDER<342.5] yes=13,no=14,missing=13
+			13:[ORDER_TIMEIDX<6.5] yes=27,no=28,missing=27
+				27:[AREA_TIMEIDX_ORDER<5.83333] yes=53,no=54,missing=53
+					53:leaf=417.208
+					54:leaf=107.03
+				28:[AREA_TIMEIDX_RIDER<96.8889] yes=55,no=56,missing=55
+					55:leaf=443.276
+					56:leaf=164.771
+			14:[AREA_REALTIME_TOCUSTOM_ORDER<701.5] yes=29,no=30,missing=29
+				29:[SHOP_CUSTOM_TIME<1131.66] yes=57,no=58,missing=57
+					57:leaf=196.191
+					58:leaf=557.757
+				30:[SHOP_REALTIME_LEAVE_TIME<645.4] yes=59,no=60,missing=59
+					59:leaf=119.949
+					60:leaf=221.909
+booster[5]:
+0:[AREA_REALTIME_TOSHOP_ORDER<382.5] yes=1,no=2,missing=1
+	1:[SHOP_LEAVE_TIME<523.845] yes=3,no=4,missing=3
+		3:[SHOP_ARRIVAL_TIME<77.846] yes=7,no=8,missing=7
+			7:[AREA_LEAVE_TIME<559.753] yes=15,no=16,missing=15
+				15:[AREA_TIMEIDX_TOCUSTOM_AVGLOAD<1.1151] yes=31,no=32,missing=31
+					31:leaf=357.837
+					32:leaf=116.869
+				16:[AREA_REALTIME_LEAVE_TIME<549.587] yes=33,no=34,missing=33
+					33:leaf=18.2943
+					34:leaf=99.7465
+			8:[SHOP_LEAVE_TIME<381.502] yes=17,no=18,missing=17
+				17:[ORDER_DIST<1868.9] yes=35,no=36,missing=35
+					35:leaf=0.40431
+					36:leaf=45.3515
+				18:[AREA_TIMEIDX_ORDER<265.778] yes=37,no=38,missing=37
+					37:leaf=35.0177
+					38:leaf=553.77
+		4:[ORDER_TIMEIDX<1445.5] yes=9,no=10,missing=9
+			9:[ORDER_TIMEIDX<129.5] yes=19,no=20,missing=19
+				19:[SHOP_TIMEIDX_NET_INFLOW<-0.472222] yes=39,no=40,missing=39
+					39:leaf=45.1731
+					40:leaf=-22.1659
+				20:[SHOP_REALTIME_OVERSTOCK<10.5] yes=41,no=42,missing=41
+					41:leaf=45.7738
+					42:leaf=123.594
+			10:[SHOP_LEAVE_TIME<883.567] yes=21,no=22,missing=21
+				21:[ORDER_TIMEIDX<3813.5] yes=43,no=44,missing=43
+					43:leaf=59.9589
+					44:leaf=119.723
+				22:[SHOP_AVG_ORDER<70.3056] yes=45,no=46,missing=45
+					45:leaf=130.886
+					46:leaf=64.8127
+	2:[ORDER_WEEKDAY<3.5] yes=5,no=6,missing=5
+		5:[AREA_DISTIDX_TIMEIDX_CUSTOM_TIME<1647.77] yes=11,no=12,missing=11
+			11:[SHOP_REALTIME_LEAVE_TIME<644] yes=23,no=24,missing=23
+				23:[SHOP_TIMEIDX_NET_INFLOW<0.866071] yes=47,no=48,missing=47
+					47:leaf=99.2767
+					48:leaf=-20.4118
+				24:[SHOP_TIMEIDX_NET_INFLOW<0.366667] yes=49,no=50,missing=49
+					49:leaf=110.987
+					50:leaf=245.855
+			12:[AREA_DISTIDX_TIMEIDX_ARRIVAL_TIME<424.802] yes=25,no=26,missing=25
+				25:[AREA_DISTIDX_TIMEIDX_CUSTOM_TIME<1891.59] yes=51,no=52,missing=51
+					51:leaf=258.482
+					52:leaf=653.805
+				26:[SHOP_REALTIME_OVERSTOCK<20.5] yes=53,no=54,missing=53
+					53:leaf=191.719
+					54:leaf=-58.3043
+		6:[SHOP_TIMEIDX_CUSTOM_TIME<2040.36] yes=13,no=14,missing=13
+			13:[AREA_TIMEIDX_TOSHOP_AVGLOAD<1.24657] yes=27,no=28,missing=27
+				27:[SHOP_TIMEIDX_ARRIVAL_TIME<447.812] yes=55,no=56,missing=55
+					55:leaf=107.676
+					56:leaf=-33.3611
+				28:[AREA_REALTIME_TOSHOP_AVGLOAD<1.25245] yes=57,no=58,missing=57
+					57:leaf=9.73368
+					58:leaf=83.0807
+			14:[ORDER_TIMEIDX<12029.5] yes=29,no=30,missing=29
+				29:[SHOP_LEAVE_TIME<801.109] yes=59,no=60,missing=59
+					59:leaf=71.1591
+					60:leaf=-46.1565
+				30:[AREA_DISTIDX_TIMEIDX_ARRIVAL_TIME<422.521] yes=61,no=62,missing=61
+					61:leaf=85.4581
+					62:leaf=303.016
+booster[6]:
+0:[ORDER_TIMEIDX<4.5] yes=1,no=2,missing=1
+	1:[ORDER_TIMEIDX<2157] yes=3,no=4,missing=3
+		3:[ORDER_TIMEIDX<1.5] yes=7,no=8,missing=7
+			7:[SHOP_REALTIME_NET_INFLOW<5.5] yes=15,no=16,missing=15
+				15:[SHOP_TIMEIDX_LEAVE_TIME<950.75] yes=29,no=30,missing=29
+					29:leaf=13.1196
+					30:leaf=67.5774
+				16:[SHOP_ARRIVAL_TIME<144.764] yes=31,no=32,missing=31
+					31:leaf=116.924
+					32:leaf=470.704
+			8:[AREA_TIMEIDX_TOCUSTOM_AVGLOAD<2.07325] yes=17,no=18,missing=17
+				17:[AREA_REALTIME_CUSTOM_TIME<879.209] yes=33,no=34,missing=33
+					33:leaf=25.2218
+					34:leaf=45.6027
+				18:[SHOP_REALTIME_OVERSTOCK<-499999] yes=35,no=36,missing=35
+					35:leaf=32.9501
+					36:leaf=-29.7127
+		4:[AREA_REALTIME_LEAVESHOP_AVGLOAD<1.74824] yes=9,no=10,missing=9
+			9:[SHOP_REALTIME_LEAVE_TIME<934.417] yes=19,no=20,missing=19
+				19:[SHOP_AVG_ORDER<112.5] yes=37,no=38,missing=37
+					37:leaf=50.6221
+					38:leaf=21.4309
+				20:[AREA_TIMEIDX_RIDER<441.611] yes=39,no=40,missing=39
+					39:leaf=84.1712
+					40:leaf=226.471
+			10:[ORDER_TIMEIDX<134.5] yes=21,no=22,missing=21
+				21:[SHOP_REALTIME_NET_INFLOW<0] yes=41,no=42,missing=41
+					41:leaf=102.833
+					42:leaf=515.298
+				22:[AREA_DISTIDX_CUSTOM_TIME<1273.25] yes=43,no=44,missing=43
+					43:leaf=-56.9858
+					44:leaf=147.981
+	2:[AREA_REALTIME_TOSHOP_AVGLOAD<1.34017] yes=5,no=6,missing=5
+		5:[SHOP_TIMEIDX_ARRIVAL_TIME<323] yes=11,no=12,missing=11
+			11:[AREA_REALTIME_AVG_DIST<1379.64] yes=23,no=24,missing=23
+				23:leaf=269.511
+				24:[SHOP_ARRIVAL_TIME<356.158] yes=45,no=46,missing=45
+					45:leaf=100.519
+					46:leaf=10.9491
+			12:leaf=456.477
+		6:[AREA_DISTIDX_LEAVE_TIME<713.464] yes=13,no=14,missing=13
+			13:[ORDER_TIMEIDX<3159.5] yes=25,no=26,missing=25
+				25:[SHOP_TIMEIDX_CUSTOM_TIME<1656.51] yes=47,no=48,missing=47
+					47:leaf=121.239
+					48:leaf=10.8729
+				26:[SHOP_REALTIME_LEAVE_TIME<775.167] yes=49,no=50,missing=49
+					49:leaf=-32.0877
+					50:leaf=102.834
+			14:[SHOP_CUSTOM_TIME<1507.66] yes=27,no=28,missing=27
+				27:leaf=337.859
+				28:[SHOP_ARRIVAL_TIME<323.202] yes=51,no=52,missing=51
+					51:leaf=-46.4389
+					52:leaf=54.7562
+booster[7]:
+0:[ORDER_TIMEIDX<2.5] yes=1,no=2,missing=1
+	1:[ORDER_TIMEIDX<704.5] yes=3,no=4,missing=3
+		3:[SHOP_REALTIME_OVERSTOCK<14] yes=7,no=8,missing=7
+			7:[ORDER_TIMEIDX<1.5] yes=15,no=16,missing=15
+				15:[SHOP_ARRIVAL_TIME<333.011] yes=31,no=32,missing=31
+					31:leaf=-2.94834
+					32:leaf=-58.5706
+				16:[AREA_REALTIME_LEAVE_TIME<700.567] yes=33,no=34,missing=33
+					33:leaf=6.52447
+					34:leaf=48.0102
+			8:[SHOP_AVG_ORDER<144.556] yes=17,no=18,missing=17
+				17:[SHOP_TIMEIDX_OVERSTOCK<6.58333] yes=35,no=36,missing=35
+					35:leaf=54.6259
+					36:leaf=5.76821
+				18:[AREA_TIMEIDX_CUSTOM_TIME<1350.35] yes=37,no=38,missing=37
+					37:leaf=161.934
+					38:leaf=32.8712
+		4:[SHOP_AVG_ORDER<172] yes=9,no=10,missing=9
+			9:[SHOP_REALTIME_OVERSTOCK<8.5] yes=19,no=20,missing=19
+				19:[ORDER_TIMEIDX<5738] yes=39,no=40,missing=39
+					39:leaf=27.0865
+					40:leaf=327.924
+				20:[AREA_TIMEIDX_LEAVESHOP_AVGLOAD<1.38735] yes=41,no=42,missing=41
+					41:leaf=120.866
+					42:leaf=8.56745
+			10:[SHOP_REALTIME_LEAVE_TIME<386.6] yes=21,no=22,missing=21
+				21:[AREA_TIMEIDX_TOSHOP_AVGLOAD<1.19155] yes=43,no=44,missing=43
+					43:leaf=-2.56496
+					44:leaf=-45.3189
+				22:[SHOP_REALTIME_LEAVE_TIME<388] yes=45,no=46,missing=45
+					45:leaf=439.809
+					46:leaf=25.5347
+	2:[ORDER_TIMEIDX<134.5] yes=5,no=6,missing=5
+		5:[SHOP_ARRIVAL_TIME<277.063] yes=11,no=12,missing=11
+			11:[ORDER_DIST<1740.4] yes=23,no=24,missing=23
+				23:[AREA_TIMEIDX_TOSHOP_AVGLOAD<1.20983] yes=47,no=48,missing=47
+					47:leaf=56.9449
+					48:leaf=-6.85944
+				24:[ORDER_TIMEIDX<12027.5] yes=49,no=50,missing=49
+					49:leaf=-84.6104
+					50:leaf=161.398
+			12:[ORDER_DIST<449.231] yes=25,no=26,missing=25
+				25:[AREA_REALTIME_DISTIDX_CUSTOM_TIME<587.494] yes=51,no=52,missing=51
+					51:leaf=113.621
+					52:leaf=-12.569
+				26:[AREA_TIMEIDX_LEAVE_TIME<655.339] yes=53,no=54,missing=53
+					53:leaf=73.5241
+					54:leaf=186.683
+		6:[SHOP_LEAVE_TIME<633.962] yes=13,no=14,missing=13
+			13:[AREA_REALTIME_TOSHOP_AVGLOAD<1.89967] yes=27,no=28,missing=27
+				27:[SHOP_TIMEIDX_ARRIVAL_TIME<640.25] yes=55,no=56,missing=55
+					55:leaf=5.00438
+					56:leaf=96.4057
+				28:[AREA_REALTIME_TOCUSTOM_AVGLOAD<5.13245] yes=57,no=58,missing=57
+					57:leaf=197.384
+					58:leaf=36.0802
+			14:[AREA_REALTIME_RIDER<110] yes=29,no=30,missing=29
+				29:[SHOP_ARRIVAL_TIME<261.455] yes=59,no=60,missing=59
+					59:leaf=63.9098
+					60:leaf=-22.9977
+				30:[ORDER_TIMEIDX<12028.5] yes=61,no=62,missing=61
+					61:leaf=21.0009
+					62:leaf=76.1778
+booster[8]:
+0:[SHOP_LEAVE_TIME<604.381] yes=1,no=2,missing=1
+	1:[SHOP_REALTIME_LEAVE_TIME<598.167] yes=3,no=4,missing=3
+		3:[ORDER_TIMEIDX<5.5] yes=7,no=8,missing=7
+			7:[ORDER_TIMEIDX<5846.5] yes=15,no=16,missing=15
+				15:[AREA_LEAVE_TIME<609.113] yes=31,no=32,missing=31
+					31:leaf=12.6753
+					32:leaf=-3.11597
+				16:leaf=337.362
+			8:[ORDER_DIST<470.899] yes=17,no=18,missing=17
+				17:[SHOP_TIMEIDX_ARRIVAL_TIME<515.896] yes=33,no=34,missing=33
+					33:leaf=-34.0601
+					34:leaf=48.9513
+				18:[AREA_REALTIME_DISTIDX_ARRIVAL_TIME<281.677] yes=35,no=36,missing=35
+					35:leaf=42.162
+					36:leaf=199.486
+		4:[ORDER_TIMEIDX<1.5] yes=9,no=10,missing=9
+			9:[SHOP_REALTIME_LEAVE_TIME<600.5] yes=19,no=20,missing=19
+				19:leaf=135.188
+				20:[ORDER_TIMEIDX<3147.5] yes=37,no=38,missing=37
+					37:leaf=95.7544
+					38:leaf=10.1632
+			10:[SHOP_TIMEIDX_NET_INFLOW<0.354167] yes=21,no=22,missing=21
+				21:[SHOP_REALTIME_CUSTOM_TIME<1098] yes=39,no=40,missing=39
+					39:leaf=11.6927
+					40:leaf=71.9026
+				22:[AREA_CUSTOM_TIME<1054.89] yes=41,no=42,missing=41
+					41:leaf=12.2565
+					42:leaf=127.291
+	2:[ORDER_WEEKDAY<3.5] yes=5,no=6,missing=5
+		5:[SHOP_REALTIME_OVERSTOCK<12.5] yes=11,no=12,missing=11
+			11:[SHOP_AVG_ORDER<167.389] yes=23,no=24,missing=23
+				23:[ORDER_TIMEIDX<137.5] yes=43,no=44,missing=43
+					43:leaf=-22.2233
+					44:leaf=36.2686
+				24:[AREA_DISTIDX_TIMEIDX_CUSTOM_TIME<862.773] yes=45,no=46,missing=45
+					45:leaf=-72.9654
+					46:leaf=8.35278
+			12:[SHOP_LEAVE_TIME<743.868] yes=25,no=26,missing=25
+				25:[AREA_TIMEIDX_CUSTOM_TIME<1400.38] yes=47,no=48,missing=47
+					47:leaf=75.9769
+					48:leaf=-51.0714
+				26:[AREA_REALTIME_DISTIDX_LEAVE_TIME<705.75] yes=49,no=50,missing=49
+					49:leaf=210.542
+					50:leaf=72.6139
+		6:[ORDER_TIMEIDX<3500.5] yes=13,no=14,missing=13
+			13:[AREA_REALTIME_AVG_DIST<822.361] yes=27,no=28,missing=27
+				27:[AREA_REALTIME_ARRIVAL_TIME<563.615] yes=51,no=52,missing=51
+					51:leaf=-32.7787
+					52:leaf=111.439
+				28:[SHOP_AVG_ORDER<135.611] yes=53,no=54,missing=53
+					53:leaf=20.25
+					54:leaf=-9.49903
+			14:[SHOP_REALTIME_OVERSTOCK<9.5] yes=29,no=30,missing=29
+				29:[AREA_TIMEIDX_ARRIVAL_TIME<195.002] yes=55,no=56,missing=55
+					55:leaf=40.151
+					56:leaf=110.495
+				30:leaf=-85.8498
+booster[9]:
+0:[ORDER_TIMEIDX<1.5] yes=1,no=2,missing=1
+	1:[SHOP_ARRIVAL_TIME<397.235] yes=3,no=4,missing=3
+		3:[AREA_TIMEIDX_TOCUSTOM_AVGLOAD<1.11608] yes=7,no=8,missing=7
+			7:[ORDER_TIMEIDX<3012.5] yes=15,no=16,missing=15
+				15:[SHOP_ARRIVAL_TIME<77.846] yes=31,no=32,missing=31
+					31:leaf=104.194
+					32:leaf=14.8346
+				16:[AREA_TIMEIDX_ARRIVAL_TIME<160.03] yes=33,no=34,missing=33
+					33:leaf=38.4801
+					34:leaf=126.135
+			8:[SHOP_LEAVE_TIME<1045.45] yes=17,no=18,missing=17
+				17:[SHOP_LEAVE_TIME<451.913] yes=35,no=36,missing=35
+					35:leaf=-7.92457
+					36:leaf=8.20169
+				18:[AREA_REALTIME_TOCUSTOM_AVGLOAD<1.21743] yes=37,no=38,missing=37
+					37:leaf=133.561
+					38:leaf=-65.808
+		4:[ORDER_TIMEIDX<211.5] yes=9,no=10,missing=9
+			9:[SHOP_DISTIDX_CUSTOM_TIME<1120.88] yes=19,no=20,missing=19
+				19:[AREA_DISTIDX_LEAVE_TIME<531.77] yes=39,no=40,missing=39
+					39:leaf=35.3428
+					40:leaf=-39.2504
+				20:[SHOP_REALTIME_CUSTOM_TIME<1246] yes=41,no=42,missing=41
+					41:leaf=-90.1606
+					42:leaf=20.7736
+			10:[SHOP_TIMEIDX_NET_INFLOW<-0.875] yes=21,no=22,missing=21
+				21:[AREA_REALTIME_DISTIDX_CUSTOM_TIME<1078.64] yes=43,no=44,missing=43
+					43:leaf=-11.014
+					44:leaf=150.607
+				22:[AREA_REALTIME_DISTIDX_CUSTOM_TIME<962.217] yes=45,no=46,missing=45
+					45:leaf=-64.0025
+					46:leaf=-2.73473
+	2:[AREA_DISTIDX_CUSTOM_TIME<1146.46] yes=5,no=6,missing=5
+		5:[AREA_AVG_ORDER<14277.5] yes=11,no=12,missing=11
+			11:[ORDER_TIMEIDX<208.5] yes=23,no=24,missing=23
+				23:[ORDER_TIMEIDX<141.5] yes=47,no=48,missing=47
+					47:leaf=13.5883
+					48:leaf=-4.78206
+				24:[ORDER_WEEKDAY<2.5] yes=49,no=50,missing=49
+					49:leaf=40.3779
+					50:leaf=9.17783
+			12:[AREA_TIMEIDX_TOSHOP_AVGLOAD<1.05903] yes=25,no=26,missing=25
+				25:[SHOP_DISTIDX_CUSTOM_TIME<1313.59] yes=51,no=52,missing=51
+					51:leaf=9.51183
+					52:leaf=-68.9367
+				26:[AREA_REALTIME_AVG_DIST<1213.65] yes=53,no=54,missing=53
+					53:leaf=33.1287
+					54:leaf=83.1514
+		6:[ORDER_TIMEIDX<3159.5] yes=13,no=14,missing=13
+			13:[AREA_REALTIME_AVG_DIST<1311.92] yes=27,no=28,missing=27
+				27:[SHOP_AVG_ORDER<3.3] yes=55,no=56,missing=55
+					55:leaf=146.639
+					56:leaf=27.7078
+				28:[SHOP_ARRIVAL_TIME<463.627] yes=57,no=58,missing=57
+					57:leaf=63.4052
+					58:leaf=342.97
+			14:[AREA_REALTIME_TOCUSTOM_ORDER<943.5] yes=29,no=30,missing=29
+				29:[SHOP_REALTIME_LEAVE_TIME<936] yes=59,no=60,missing=59
+					59:leaf=-0.541992
+					60:leaf=84.7996
+				30:leaf=204.47
