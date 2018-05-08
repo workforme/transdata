@@ -9,7 +9,7 @@ struct gbdt_feature {
    double value;
 };
 
-double gbdt_scoring(struct gbdt_feature feas[],unsigned int len,double *res);
+int GbdtScoring(struct gbdt_feature feas[] ,unsigned int len, double *res);
 
 #ifdef __cplusplus    
 }
