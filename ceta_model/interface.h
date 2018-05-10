@@ -9,9 +9,8 @@ struct gbdt_feature {
    double value;
 };
 
-int GbdtInit();
-
-int GbdtScoring(struct gbdt_feature feas[] ,unsigned int len, double *res);
+int GbdtInit(char* model_dir,char * log_dir);
+int GbdtScoring(struct gbdt_feature feas[] ,int feasize,const char *model_name, double *res);
 
 #ifdef __cplusplus    
 }
