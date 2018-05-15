@@ -8,7 +8,7 @@ struct libconf{
     char* model_dir;
     char* log_dir;
     int   feature_debug_rate;//e.g. 10 means 10%
-    int   model_buffer;//seconds,should be 1800s
+    int   model_buffer;//seconds,should be 300s
 };
     
 struct gbdt_feature {
